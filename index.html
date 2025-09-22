@@ -104,6 +104,34 @@
 									<h2>AI Projects</h2>
 									<p>인공지능과 머신러닝을 활용한 프로젝트들</p>
 								</header>
+
+								<!-- Major Selection Assistant (RAG) -->
+								<div class="spotlight" style="margin-bottom: 3em; text-align: left;">
+									<div class="content" style="text-align: left;">
+										<header class="major">
+											<h3><a href="https://github.com/KwangsikLee/major-selection-assistant">Major Selection Assistant (RAG)</a></h3>
+										</header>
+										<p><strong>RAG 기반 전공 추천/상담 어시스턴트</strong></p>
+										<p>대학 전공 관련 자료를 임베딩하여 검색하고, 사용자 질문에 근거 기반 답변을 제공하는 Retrieval-Augmented Generation 프로젝트입니다.</p>
+										<ul style="text-align: left; margin: 1.5em 0;">
+											<li><strong>핵심 기능:</strong> PDF에서 이미지 추출 → OCR → 텍스트 정제 → 임베딩 → 벡터 검색 → 근거 인용 Q&A</li>
+											<li><strong>아키텍처:</strong> Retriever + LLM 생성 파이프라인 (RAG)</li>
+											<li><strong>기술 스택:</strong> Python, LangChain, FAISS/Chroma, OpenAI API</li>
+											<li><strong>문서 처리:</strong> PDF 페이지 렌더링/이미지 추출, OCR 텍스트화, 청크 분할/메타데이터 관리</li>
+											<li><strong>응용:</strong> 전공 추천, 커리큘럼 비교, 진로 Q&A</li>
+										</ul>
+										<p style="margin: 0.5em 0 0.5em 0;"><strong>사용 모델:</strong></p>
+										<ul style="text-align: left; margin: 0.5em 0 1.5em 0;">
+											<li><strong>OCR:</strong> PDF에서 추출한 이미지에 대한 문자 인식 ( EasyOCR, PaddleOCR)</li>
+											<li><strong>임베딩:</strong> 텍스트 임베딩 모델 (google/embeddinggemma-300m)</li>
+											<li><strong>재순위화(Rerank):</strong> 질의-문서 매칭 향상을 위한 reranker (bge-reranker-v2)</li>
+											<li><strong>LLM:</strong> 근거 인용 답변 생성 (예: GPT-4o/mini 계열)</li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/colleage_ai/department_info2.png" alt="RAG Project" style="width: 120px; height: 120px; border-radius: 20px; object-fit: cover;" /></span>
+								</div>
+
+
 								<!-- AI Math Recognition -->
 								<div class="spotlight" style="margin-bottom: 3em; text-align: left;">
 									<div class="content" style="text-align: left;">
