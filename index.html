@@ -30,6 +30,7 @@
 						<ul>
 							<li><a href="#intro" class="active">About</a></li>
 							<li><a href="#ai-projects">AI Projects</a></li>
+							<li><a href="#ai-camp-projects">SKN AI Camp Projects</a></li>							
 							<li><a href="#app-projects">App Projects</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
@@ -45,7 +46,8 @@
 										<header class="major">
 											<h2>About Me</h2>
 										</header>
-										<p>안녕하세요! AI와 모바일 앱 개발을 전문으로 하는 개발자입니다.<br>
+										<p>인연이 될 회사를 찾고 있습니다.</p>
+										<p>저는 AI와 모바일 앱, 멀티미디어 관련 개발을 전문으로 하는 개발자입니다.<br>
 										iOS/Android 앱 개발부터, 머신러닝부터 자연어처리, LLM 까지 다양한 프로젝트를 통해
 										끊임 없는 진화를 추구합니다.</p>
 										<p>최근에는 LLM과 VLM, 특히 온디바이스에서 구동되는 AI 멀티모달 기술에 깊은 관심을 갖고 
@@ -57,7 +59,7 @@
 										<strong>Backend:</strong> FastAPI, Firebase, RESTful API, OpenAI API<br>
 										<strong>Database:</strong> MongoDB, MySQL<br>
 										<strong>Graphics/Multimedia:</strong> OpenGL ES, OpenGL, FFMPEG, H.264, DASH/HLS, Widevine DRM, OpenCV</p>
-										<p><strong>전문 분야:</strong> Machine Learning, VLM, LLM, RAG, Mobile Development, Full Stack</p>
+										<p><strong>전문 분야:</strong> Machine Learning, VLM, LLM, RAG, Mobile Development, Multimedia, Full Stack</p>
 
 										<strong>AI 기술 역량:</strong> <br>
 										<ul style="text-align: left; margin: 1.5em 0;">
@@ -188,6 +190,63 @@
 								</div>
 								-->
 							</section>
+
+						<!-- SKN AI Camp Projects -->
+							<section id="ai-camp-projects" class="main special">
+								<header class="major">
+									<h2>SKN AI Camp Projects</h2>
+									<p>SKN AI LLM Camp team projects</p>
+								</header>
+
+								<!-- SKN16-3st-1Team -->
+								<div class="spotlight" style="margin-bottom: 3em; text-align: left;">
+									<div class="content" style="text-align: left;">
+										<header class="major">
+											<h3><a href="https://github.com/KwangsikLee/SKN16-3st-1Team">LLM 강의 검색 & Help RAG Agent</a></h3>
+										</header>
+										<p><strong>강의 자료 의미 검색 + 근거 인용 Q&A</strong></p>
+										<ul style="text-align: left; margin: 1.5em 0;">
+											<li><strong>핵심:</strong> 강의 슬라이드/노트 임베딩 기반 검색과 세션형 도움말 챗</li>
+											<li><strong>아키텍처:</strong> Retriever(벡터 DB) + Reranker + LLM 생성</li>
+											<li><strong>스택:</strong> Python, LangChain, FAISS/Chroma, OpenAI/Local LLM</li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/skn/3rd_project.png" alt="RAG Project" style="width: 120px; height: 120px; border-radius: 20px; object-fit: cover;" /></span>
+								</div>
+
+								<!--SKN16-2nd-2Team -->
+								<div class="spotlight" style="margin-bottom: 3em; text-align: left;">
+									<div class="content" style="text-align: left;">
+										<header class="major">
+											<h3><a href="https://github.com/KwangsikLee/SKN16-2nd-2Team">학생 학업 중퇴 예측(멕시코)</a></h3>
+										</header>
+										<p><strong>교육 데이터 기반 중도탈락 이진 분류</strong></p>
+										<ul style="text-align: left; margin: 1.5em 0;">
+											<li><strong>전처리:</strong> 결측치 처리, 범주형 인코딩, 클래스 불균형 보정</li>
+											<li><strong>모델:</strong> Logistic, RandomForest, XGBoost 비교 및 K-Fold 검증</li>
+											<li><strong>해석:</strong> Feature importance/SHAP으로 주요 영향 요인 도출</li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/skn/2nd_project.png" alt="RAG Project" style="width: 120px; height: 120px; border-radius: 20px; object-fit: cover;" /></span>
+								</div>		
+
+								<!--SKN16-1st-2Team -->
+								<div class="spotlight" style="margin-bottom: 3em; text-align: left;">
+									<div class="content" style="text-align: left;">
+										<header class="major">
+											<h3><a href="https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN16-1st-2Team">전국 자동차의 등록 현황 분석</a></h3>
+										</header>
+										<p><strong>지역·차종·연도별 등록 데이터 탐색적 분석</strong></p>
+										<ul style="text-align: left; margin: 1.5em 0;">
+											<li><strong>데이터:</strong> 수집/정제 → 파생변수 생성 및 이상치 처리</li>
+											<li><strong>분석:</strong> 시계열 추세, 지역별 분포, 상관관계 파악</li>
+											<li><strong>시각화:</strong> Pandas, Seaborn/Plotly, 지도형(Choropleth) 시각화</li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/skn/1st_project.png" alt="RAG Project" style="width: 120px; height: 120px; border-radius: 20px; object-fit: cover;" /></span>
+								</div>																
+							</section>
+
 
 						<!-- App Projects -->
 							<section id="app-projects" class="main special">
